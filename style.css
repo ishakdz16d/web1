@@ -282,3 +282,41 @@ footer{
   top:0;
   left:0;
   }
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-card {
+    width: 350px;
+    background: #2d2d2d;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contact-card h3 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.discord-btn {
+    display: inline-block;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.discord-btn:hover {
+    background: #4752C4;
+}
